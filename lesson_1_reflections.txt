@@ -1,0 +1,75 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Instead of rampaging through the couple of thousands lines 
+	of the two files to find the exact location of the difference/error, 
+	using FC (or diff) made the process much easier by pointing 
+	out the exact locations of the differences between both files, 
+	making the time "wasted" much more minimal. And that was because 
+	searching for the error in one line (with limited number of characters)
+	where the difference was, would take much less time to find the error 
+	than searching for it in the whole file. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    The case that has just been introduced in the course (the difference between 
+	an old and a new file) is the best example since that would save a LOT
+	of time making us (programmers) much more efficient. Also, there are other
+	cases where the access to the entire history of a file is quite useful. 
+	For example, when you introduce a new feature to your program but you notice
+	after a while that another older feature doesn't work anymore. The history
+	will come in handy in this situation because you can go back and retrieve
+	the last file where that feature was still functional and see what went wrong
+	or just copy/paste its correct code and be done with it. That will defintely
+	save a whole lot of time/money.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    I think a pro of having to manually choose when to create a commit, is
+	the fact that you can customize it the way you like, meaning, you can 
+	choose to commit when having done major changes for example, or when 
+	having just added a new feature. And that is a con in the automatic 
+	approach because the commits may not be significant to you since they 
+	were done automatically and one would have hard time to know to which
+	version one should go back.
+	On the other hand, saving versions automatically can be useful because 
+	simply it's done automatically, because we're humans and we do forget,
+	and these automatically saved versions may save our "lives", even if they
+	may not make sense to us, they're still previous versions of our 
+	2-minutes-ago-it-was-working program!
+	
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Well, I'm not sure, but if I had to guess, I would say Git's way of doing
+	things is more logical. I think that's because, usually files interconnect,
+	meaning that a software or an application is a number of files, very unlikely 
+	to be just one file containing all the program, so the code in one file would
+	be kind of dependant to code in another file. Therefore, saving all files in one
+	commit sounds more the way to go, since I think it's like saving the status of 
+	the program at a given moment, which again sounds more practical.
+	
+How can you use the commands git log and git diff to view the history of files?
+
+    The command git log will display the complete history of all the changes 
+	(commits) made to the file in question, showing each change separately 
+	with its date as well as the person who made it and some other additional information.
+	Then, the command log diff will help find the exact locations of the changes
+	that were made (i.e the exact lines), whether they were added or deleted.	
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I think version control would help every programmer to learn to be more daring, 
+	if I may say so. With version control, one would 'risk' implementing new features 
+	and experiment more without the fear of breaking the program that they've been 
+	building. Goodbye to being afraid and careful and welcome to being a risk-taker 
+	and	an adventurer!! Yay!! (^^') 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	I want to learn more of how to use Git to be a better programmer, and to 
+	actually be able to finish the Android course effectively! ^^'
