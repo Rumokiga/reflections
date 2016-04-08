@@ -1,9 +1,9 @@
 What happens when you initialize a repository? Why do you need to do it?
-	
+
 	When you initialize a repository, Git takes in hand managing this
 	directory, meaning (I think) is that, Git will create an empty repository
 	to manage the history of the files in the directory (if any) and so on.
-	We need to initialize a repository, of course, because otherwise 
+	We need to initialize a repository, of course, because otherwise
 	we can't make any Git command work on a normal directory.
 
 How is the staging area different from the working directory and the repository?
@@ -12,9 +12,17 @@ What value do you think it offers?
 	The staging area is a middle place, kind of, between the working directory
 	and the repository. It's where we can store files that we want to commit
 	but not ready to commit them yet, it's like a queue.
-	
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	Since the staging area is like a middle step between the working directory
+	and the Git repository, and is able to hold more than one file at a time,
+	so one knowing the logical change they've made, can collect all the files that
+	were involved in that change in the staging area and then commit them together.
+	Also, the git diff and git diff --staged can be very useful if we're not sure
+	what changes were made to ensure that we have just one logical change per
+	commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
