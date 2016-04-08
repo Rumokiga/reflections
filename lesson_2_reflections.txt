@@ -24,8 +24,14 @@ change?
 	what changes were made to ensure that we have just one logical change per
 	commit.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	As the course mentioned, introducing a new experimental feature 
+	should induce the creation of a new branch. Also, testing in general
+	should always make us create a new branch. Testing these features 
+	aside from the somewhat fully working program will make us at ease, 
+	plus once we're ready, we can merge the branches and no harm is 
+	done!
 
 How do the diagrams help you visualize the branch structure?
 
