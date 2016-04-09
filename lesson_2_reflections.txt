@@ -53,3 +53,14 @@ What is the result of merging two branches together? Why do we represent it in t
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Well, one obvious pro of the automatic merging is saving time, especially,
+	for kind of 'simple' merges, where, for example, the two branches were for
+	working on two completely different features, so the merging process won't 
+	have any problem, since it won't have to deal with the same portion of code
+	(generally speaking, of course). But, the drawback of the automatic approach
+	which is at the same time a pro of the manual one, is that it may cause 
+	problems and in result, bugs. Even if Git doesn't replace code because it 
+	can't guess, it still can cause bugs by adding code from two different branches,
+	two portions of code that don't necessarily go well together, where a human 
+	should intervene to make them work together.
