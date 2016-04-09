@@ -35,6 +35,12 @@ What are some situations when branches would be helpful in keeping your history 
 
 How do the diagrams help you visualize the branch structure?
 
+	The diagrams are a big help because they visualize the struture
+	and by visulaizing, one can understand the structure much better.
+	Meaning, the changes made before and after the branche in question
+	was created, how the other branches eveloved, all that, when it's
+	visualized, that makes it far easier to understand the connections.  
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
