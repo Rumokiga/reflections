@@ -1,7 +1,7 @@
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
-    Instead of rampaging through the couple of thousands lines 
+	Instead of rampaging through the couple of thousands lines 
 	of the two files to find the exact location of the difference/error, 
 	using FC (or diff) made the process much easier by pointing 
 	out the exact locations of the differences between both files, 
@@ -13,7 +13,7 @@ was introduced?
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
-    The case that has just been introduced in the course (the difference between 
+	The case that has just been introduced in the course (the difference between 
 	an old and a new file) is the best example since that would save a LOT
 	of time making us (programmers) much more efficient. Also, there are other
 	cases where the access to the entire history of a file is quite useful. 
@@ -28,7 +28,7 @@ What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-    I think a pro of having to manually choose when to create a commit, is
+	I think a pro of having to manually choose when to create a commit, is
 	the fact that you can customize it the way you like, meaning, you can 
 	choose to commit when having done major changes for example, or when 
 	having just added a new feature. And that is a con in the automatic 
@@ -44,7 +44,7 @@ docs does?
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    Well, I'm not sure, but if I had to guess, I would say Git's way of doing
+ 	Well, I'm not sure, but if I had to guess, I would say Git's way of doing
 	things is more logical. I think that's because, usually files interconnect,
 	meaning that a software or an application is a number of files, very unlikely 
 	to be just one file containing all the program, so the code in one file would
@@ -54,7 +54,7 @@ files in one commit, while others, like Google Docs, treat each file separately?
 	
 How can you use the commands git log and git diff to view the history of files?
 
-    The command git log will display the complete history of all the changes 
+ 	The command git log will display the complete history of all the changes 
 	(commits) made to the file in question, showing each change separately 
 	with its date as well as the person who made it and some other additional information.
 	Then, the command log diff will help find the exact locations of the changes
@@ -63,7 +63,7 @@ How can you use the commands git log and git diff to view the history of files?
 How might using version control make you more confident to make changes that
 could break something?
 
-    I think version control would help every programmer to learn to be more daring, 
+	I think version control would help every programmer to learn to be more daring, 
 	if I may say so. With version control, one would 'risk' implementing new features 
 	and experiment more without the fear of breaking the program that they've been 
 	building. Goodbye to being afraid and careful and welcome to being a risk-taker 
@@ -73,3 +73,21 @@ Now that you have your workspace set up, what do you want to try using Git for?
 
 	I want to learn more of how to use Git to be a better programmer, and to 
 	actually be able to finish the Android course effectively! ^^'
+
+
+**Commands covered in this lesson**
+	---Non-Git commands---
+	FC old-file new-file  --> for Windows
+	diff -u old-file new-fime  --> for Mac or Linux
+
+	---Git commands---
+	git log
+	git diff commit1-id commit2-id
+	git log --stat
+	git clone repository-url
+	git config --global color.ui auto  (though I think it's not needed anymore)
+	git checkout commit-id
+
+	git config --global core.editor "'C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"
+	git config --global push.default upstream
+	git config --global merge.conflictstyle diff3

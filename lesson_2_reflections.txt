@@ -64,3 +64,26 @@ manually?
 	can't guess, it still can cause bugs by adding code from two different branches,
 	two portions of code that don't necessarily go well together, where a human 
 	should intervene to make them work together.
+
+
+**Commands covered in this lesson**
+	---Non-Git commands---
+	
+
+	---Git commands---
+	git init (in the working directory) 
+	git status
+	git add file_to_staged_area
+	git commit
+	git commit -m "commit message"
+	git diff
+	git diff --staged
+	git reset --hard
+	git branch
+	git branch branch_name
+	git checkout branch_name
+	git log --graph --oneline branch1 branch2 (..)
+	git checkout -b new_branch_name (== git branch new_branch_name; git checkout new_branch_name)
+	git merge branch1 branch2 (..)
+	git log -n 1
+	
