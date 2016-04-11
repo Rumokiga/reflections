@@ -1,1 +1,6 @@
 When would you want to use a remote repository rather than keeping all your work local?
+  
+  The obvious case is when working on a project that involves multiple contributors 
+  since the remote repository will allow everyone to work simultaneously and at the 
+  same time allow them to include others' work.
+
