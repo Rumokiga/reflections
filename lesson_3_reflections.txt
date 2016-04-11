@@ -10,3 +10,15 @@ stay up-to-date with your remote repository?
 	That's because sometimes you make changes locally that you don't want them overidden 
 	if Git automatically stayed up-to-date and for example restored a file present on the
 	remote that you deleted on your local repository. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	I'm not sure if branches are really comparable with the other two, so I'll start with it.
+	In my own words, branches are sections of your projects, kind of, can be created 
+	both locally or on the remote repo, commits should be done to them, that's all I 
+	can think of for now. Now, clones are, as their name says, they are copies of 
+	your work, your entire repository/project, you can clone from local to local, from
+	remote to local and from remote to remote. This last one is actually a fork in
+	GitHub's jargon, when you fork a repository in GitHub, you're just cloning it under 
+	your profile in GitHub's server.
+
