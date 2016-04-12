@@ -22,3 +22,10 @@ Describe the differences between forks, clones, and branches. When would you use
 	GitHub's jargon, when you fork a repository in GitHub, you're just cloning it under 
 	your profile in GitHub's server.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	I think the benefit is that it makes collaborating easier, meaning, having a copy of 
+	the last know state of the remote will give you an idea of what changes were made from
+	other collaborators of the same project and that way it makes merging your combined
+	work much easier.
+
