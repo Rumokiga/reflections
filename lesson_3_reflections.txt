@@ -29,3 +29,16 @@ What is the benefit of having a copy of the last known state of the remote store
 	other collaborators of the same project and that way it makes merging your combined
 	work much easier.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	
+	Now after knowing the 'worth' of Git and GitHub (I was really wondering for the longest time why 
+	people were so 'hyped' about them, sorta), it may really be hard to go back. I see how using both
+	of them can save a LOT of time especially when collaborating. I used to collaborate using nothing
+	really, when working on school projects with fellow group members, everybody just work on their 
+	allocated task and then we simply get together on a couple of nights to kind of 'merge' our works,
+	and the combining process really goes something like this, one member (the most knowledgeable, usuallly)
+	take the work of the other members, one at a time, asks them what they added to the initial version, 
+	tries to merge their work and then move on to the next person and so on, that's about it! I really do
+	see where collaborating with Git and GitHub will come in handy, so I definitely think that, once
+	getting used to these tools, it's way much easier to work with them rather then doing we used to do.
+
