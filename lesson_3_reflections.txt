@@ -49,3 +49,19 @@ When would you want to make changes in a separate branch rather than directly in
 	by a pull request won't be included unless approved by the parties concerned, even if it means
 	more work literally, but I think it's the safest approach to maintain the integrity of the whole
 	program.
+
+**Commands covered in this lesson**
+	---Git commands---
+	git config --global credential.helper wincred
+	git remote
+	git remote add repo_name(origin) remote_url
+	git remote -v
+	(when git clone, it does the git remote automatically)
+	git push remote_name(origin) branch_name
+	git pull remote_name(origin) branch_name
+	git pull origin master == | git fetch origin
+	                          | git merge master origin/master
+	git branch -a
+	git fetch origin
+	git log origin/master
+	git diff origin/master master

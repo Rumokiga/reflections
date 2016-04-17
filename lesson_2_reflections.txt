@@ -67,9 +67,6 @@ manually?
 
 
 **Commands covered in this lesson**
-	---Non-Git commands---
-	
-
 	---Git commands---
 	git init (in the working directory) 
 	git status
